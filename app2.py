@@ -25,7 +25,7 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
-st.header('The Movie Recommender System')
+st.header('The FlixGenius')
 
 movies_dict = pickle.load(open('moviesdict.pkl','rb')) #rb means read binary
 movies = pd.DataFrame(movies_dict)
